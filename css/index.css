@@ -209,10 +209,10 @@ h2{
 
 img{
     height: 40vh;
-    width: 100%;
+    width: 90%;
 }
 .img2{
-    width: 120% ;
+    width: 90% ;
     padding-left: 50px;
 }
 .img3{
@@ -228,6 +228,10 @@ img{
     height: 40vh;
     padding: 20px 20px 20px 20px;
     padding-right: 50px;
+    margin-top: 20px;
+}
+.img4{
+    width: 300px;
 }
 hr{
     display: none;
