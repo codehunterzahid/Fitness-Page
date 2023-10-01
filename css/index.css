@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 0.698);
+}
+
+/* navbar */
+
+.nav-bar{
+    background: linear-gradient(to right, rgb(98, 98, 145) 30%, rgb(114, 114, 247) , rgb(49, 49, 143));
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    color: white;
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 49%;
+    padding-top: 20px;
+    font-family: serif;
+}
+li{
+    display: inline;
+}
+
+a{
+    background-color: transparent;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px 15px;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+a:hover{
+    background-color: gainsboro;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+.form1{
+    display: flex;
+    width: 49%;
+    padding-left: 20%;
+}
+.label1{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    height: 35px;
+    width: 90%;
+    margin: auto;
+    padding: 5px 20px;
+    text-align: right;
+    font-weight: bold;
+}
+.search{
+    background-color: transparent;
+    flex: 1;
+    width: 83%;
+    border: none;
+    outline: none;
+    color: white;
+    padding-right: 10px;
+}
+
+/* landing page is to be designed */
+
+.main{
+    background-image: url(../Assets/bg.jpg);
+    height: 99vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.hero-h{
+    width: 30%;
+    margin: 13vh 0 30px 30px;
+    padding-left: 30px ;
+    padding-top: 30px;
+}
+h1{
+    font-size: 80px;
+    /* padding-right: 80px; */
+    letter-spacing: 3px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: rgb(102, 7, 7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    color: blue;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px ;
+    padding-bottom: 20px;
+}
+p{
+    width: 90%;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-a{
+    text-decoration: none;
+    background-color: rgb(48, 48, 246);
+    margin-top: 50px;
+    color: white;
+    border-radius: 30px;
+    padding: 8px 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+.hero-a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid blue;
+}
+
+
+.hero-img{
+    background-image: url(../Assets/hero.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    margin: 13vh 0 0 0;
+}
+.hero-para{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 13vh 30px 30px 0;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+h2{
+    text-align: end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-left: 60px;
+}
+
+.hero-p{
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 15px;
+    text-align: end;
+}
+
+.hero-a2{
+    margin-left: 70%;
+    text-align: center;
+    width: 35%;
+    text-decoration: none;
+    background-color: rgb(48, 48, 246);
+    margin-top: 100px;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+/* this is the styling of workout section */
+
+
+#workout{
+    height: 100vh;
+    width: 100%;
+}
+
+.workout-h{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    padding: 10px 0 10px 0;
+}
+
+.w1{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40vh;
+    padding: 20px 20px 20px 50px;
+}
+
+img{
+    height: 40vh;
+    width: 100%;
+}
+.img2{
+    width: 120% ;
+    padding-left: 50px;
+}
+.img3{
+    padding-left: 160px;
+}
+
+.w2{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40vh;
+    padding: 20px 20px 20px 20px;
+    padding-right: 50px;
+}
+hr{
+    display: none;
+}
+
+/* this is a form to apply for membership */
+
+#membership{
+    margin-top: 20px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.mem-h{
+    text-align: center;
+    text-decoration :violet underline;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.memb-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 3% 30% 3% 30%;
+    border: 2px solid white;
+    height: 85vh;
+    width: 40%;
+    color: white;
+}
+
+.label4{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.label5{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.label6{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.label4, .label5, .label6{
+    display: flex;
+    align-items: center;
+    background-color: rgb(118, 118, 237);
+    margin: 30px 30px 10px 30px;
+    padding-bottom: 30px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.span{
+    border-right: 2px solid white;
+    padding: 10px 10px 10px 0;
+}
+
+.input{
+    background-color: transparent;
+    width: 70%;
+    margin-left: 30px;
+    height: 38px;
+    flex: 1;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+}
+
+.question{
+    padding: 20px 10px 20px 40px;
+}
+#yes{
+    margin-left: 50px;
+}
+
+.label8{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.label8 span{
+    padding-right: 40px;
+}
+select{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.apply{
+    height: 40px;
+    width: 100px;
+    margin-top: 60px;
+    margin-left: 75%;
+}
