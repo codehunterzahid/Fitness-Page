@@ -137,12 +137,12 @@ p{
 
 
 .hero-img{
-    background-image: url(../Assets/hero.png);
+    background-image: url(../Assets/Fitness-Images-1.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 30%;
-    margin: 13vh 0 0 0;
+    width: 35%;
+    margin: 10vh 0 0 0;
 }
 .hero-para{
     display: flex;
